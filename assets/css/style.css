@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira:300,400,500,600,700');
+
 /*-----------------------Navbar------------------------*/
 
 .navbar {
@@ -7,6 +9,8 @@
 /*--Navbar title--*/
 .navbar-brand {
     color: rgba(153,204,0,1);
+    font-family: "Fira";
+    font-size: 150%;
 }
 .navbar-brand:hover {
     color: rgba(153,204,0,1);
@@ -16,6 +20,8 @@
 /*--Navbar non current pages--*/
 .nav-link {
     color: rgba(153,204,0,0.6) ;
+    font-family: "Fira";
+    font-size: 120%;
 }
 
 .nav-link:hover {
