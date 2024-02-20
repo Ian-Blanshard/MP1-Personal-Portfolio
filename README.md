@@ -69,7 +69,7 @@ Google Fonts
 ## Testing
 
 ### Bugs
-
+ fix color of burger item on navbar to fit custom colors
 
 ======
 ## Deployment

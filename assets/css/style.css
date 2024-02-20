@@ -29,24 +29,21 @@
 
 
 /*-----------------------content------------------------*/
-.main {
-    height: 300px;
-}
+
 
 
 /*-----------------------Footer------------------------*/
 
 footer {
-    height: 150px;
+    height: 72px;
     background-color: #003333;
-    
 }
 
 
 .socials {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    
+    padding: 0;
     
 }
 .socials li {
@@ -62,4 +59,18 @@ footer {
 
 .icon:hover {
     color: rgba(153,204,0,1);
+}
+
+
+/*-----------------------Media queries------------------------*/
+
+
+@media screen and (max-width: 992px){
+    .socials li {
+        padding: 3%;
+    }
+    
+    footer {
+        height: 56px;
+    }
 }
