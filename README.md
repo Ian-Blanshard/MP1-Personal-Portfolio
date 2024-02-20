@@ -2,7 +2,7 @@
 
 Live version of site hosted on GitPages [here](#link)
 
-======
+---
 ## Contents
 
 1 [UX](#link)
@@ -10,6 +10,7 @@ Live version of site hosted on GitPages [here](#link)
   * Developer Goals
   * User Goals
   * User Stories
+
 2 [Features](#link)
 3 [Technologies Used](#link)
 4 [Credits](#link)
@@ -21,7 +22,7 @@ Live version of site hosted on GitPages [here](#link)
 
 
 
-======
+===
 ## UX
 
 ### Project Goals
