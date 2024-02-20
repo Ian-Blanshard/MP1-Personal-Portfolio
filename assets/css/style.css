@@ -1,0 +1,31 @@
+/*-----------------------Navbar------------------------*/
+
+.navbar {
+    background-color: #003333;
+}
+
+/*--Navbar title--*/
+.navbar-brand {
+    color: rgba(153,204,0,1);
+}
+.navbar-brand:hover {
+    color: rgba(153,204,0,1);
+    
+}
+
+/*--Navbar non current pages--*/
+.nav-link {
+    color: rgba(153,204,0,0.6) ;
+}
+
+.nav-link:hover {
+    color: rgba(153,204,0,1);
+}
+
+/*--Navbar page current--*/
+.active {
+    color: rgba(153,204,0,1) !important ;
+}
+
+
+/*-----------------------Footer------------------------*/

@@ -47,7 +47,8 @@ This Project uses the following languages:
 * HTML
 * CSS
 
-Bootstrap is utalized to structure the website
+Bootstrap CSS framework is utalized to structure the website and create a quick and easy to use
+navigation bar
 
 Git and GitHub
 
