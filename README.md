@@ -38,6 +38,10 @@ Live version of site hosted on GitPages [here](#link)
 ======
 ## Features
 
+Navigation bar created using bootstrap, customised using my own CSS to change text-alignment and colors
+increased navbar height when viewed on larger devices.
+
+Footer created using fontawesome icons. CSS used for size/color customisation and hover effects added using hover pseudoclass.
 
 ======
 ## Technologies used

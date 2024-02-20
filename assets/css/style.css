@@ -28,4 +28,38 @@
 }
 
 
+/*-----------------------content------------------------*/
+.main {
+    height: 300px;
+}
+
+
 /*-----------------------Footer------------------------*/
+
+footer {
+    height: 150px;
+    background-color: #003333;
+    
+}
+
+
+.socials {
+    font-size: 50px;
+    text-align: center;
+    
+    
+}
+.socials li {
+    display: inline;
+    padding: 50px;
+    
+}
+
+.icon {
+    color: rgba(153,204,0,0.6);
+    text-decoration: none;
+}
+
+.icon:hover {
+    color: rgba(153,204,0,1);
+}
