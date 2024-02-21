@@ -64,6 +64,9 @@ Google Fonts
 ======
 ## Credits
 
+https://developer.mozilla.org/en-US/docs/Web/CSS
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ======
 ## Testing

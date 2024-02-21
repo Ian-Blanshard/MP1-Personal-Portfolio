@@ -1,3 +1,4 @@
+/*-----------------------Imports------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Fira:300,400,500,600,700');
 
 /*-----------------------Navbar------------------------*/
@@ -11,6 +12,7 @@
     color: rgba(153,204,0,1);
     font-family: "Fira";
     font-size: 150%;
+    letter-spacing: 0.04rem;
 }
 .navbar-brand:hover {
     color: rgba(153,204,0,1);
@@ -22,6 +24,7 @@
     color: rgba(153,204,0,0.6) ;
     font-family: "Fira";
     font-size: 120%;
+    letter-spacing: 0.04rem;
 }
 
 .nav-link:hover {
@@ -36,7 +39,35 @@
 
 /*-----------------------content------------------------*/
 
+body {
+    background-color: #333333;
+}
 
+/*--First content--*/
+.main   {
+    margin-top: 100px;
+    height: 620px;
+    font-family: "Fira";
+    letter-spacing: 0.04rem;
+}
+ 
+.main h2, h4, h5 {
+    color: rgba(153,204,0,1);
+}
+
+.main p {
+    color: rgba(153,204,0,0.6);
+}
+.content-box {
+    padding: 40px;
+    margin: 0;
+    border: 25px;
+    border: solid;
+    border-radius: 15px;
+    border-color: #333333;
+    background-color: #003333;
+    height: 550px;
+}
 
 /*-----------------------Footer------------------------*/
 
@@ -78,5 +109,9 @@ footer {
     
     footer {
         height: 56px;
+    }
+
+    .main {
+        margin-top: 62px;
     }
 }
