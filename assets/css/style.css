@@ -61,12 +61,41 @@ body {
 .content-box {
     padding: 40px;
     margin: 0;
-    border: 25px;
-    border: solid;
     border-radius: 15px;
     border-color: #333333;
     background-color: #003333;
     height: 550px;
+}
+
+/*-----------------------Contact Form------------------------*/
+.contact-heading {
+    display: inline;
+}
+
+input, textarea, ::placeholder {
+    background-color: #333333;
+    border: none;
+    color: rgba(153,204,0,1);
+}
+
+label {
+    margin:10px;
+}
+
+.email-label {
+    
+}
+
+.contact-form {
+    margin-top: 50px;
+}
+
+.left-contact {
+    margin-top: 12px;
+}
+
+.right-contact {
+
 }
 
 /*-----------------------Footer------------------------*/
@@ -98,6 +127,27 @@ footer {
     color: rgba(153,204,0,1);
 }
 
+/*-----------------------Effects------------------------------*/
+
+.content-box {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    } 
+
+    33% {
+        opacity: 60%;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
 
 /*-----------------------Media queries------------------------*/
 
@@ -115,3 +165,15 @@ footer {
         margin-top: 62px;
     }
 }
+
+/*-----------------------colours------------------------*/
+
+.highlight {
+    color: rgba(153,204,0,1);
+}
+
+.lowlight { 
+    color:rgba(153,204,0,0.6);
+}
+
+/*-----------------------spacers------------------------*/

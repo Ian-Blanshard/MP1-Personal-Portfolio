@@ -66,7 +66,16 @@ Google Fonts
 
 https://developer.mozilla.org/en-US/docs/Web/CSS
 
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/
+
+https://www.makeareadme.com/
+
+https://stackoverflow.com/questions/42523147/place-part-of-form-group-in-different-column-using-bootstrap-grid
+
 
 ======
 ## Testing
