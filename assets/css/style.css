@@ -75,9 +75,12 @@ body {
 input, textarea, ::placeholder {
     background-color: #333333;
     border: none;
-    color: rgba(153,204,0,1);
+    color: rgba(153,204,0,0.6);
 }
 
+textarea {
+    max-width: 80%;
+}
 label {
     margin:10px;
 }
@@ -97,6 +100,26 @@ label {
 .right-contact {
 
 }
+
+.contact-me-button {
+    background-color: rgba(153,204,0,0.6);
+    color: #333333;
+    width: 45%;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+.contact-me-button:hover {
+    background-color: rgba(153,204,0,1);
+}
+
+
+
 
 /*-----------------------Footer------------------------*/
 
@@ -121,6 +144,7 @@ footer {
 .icon {
     color: rgba(153,204,0,0.6);
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
 .icon:hover {
@@ -162,7 +186,7 @@ footer {
     }
 
     .main {
-        margin-top: 62px;
+        margin-top: 100px;
     }
 }
 
