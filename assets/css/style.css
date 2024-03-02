@@ -73,6 +73,10 @@ body {
     padding-bottom: 20px;
 }
 
+.job-date {
+    color: rgba(153,204,0,1) !important;
+}
+
 .timeline-item {
     padding: 30px 20px 20px;
     position: relative;
@@ -228,6 +232,27 @@ label {
           margin-top: 80px;
     }
 }
+
+@media screen and (min-width: 992px){
+    .employer {
+        margin-left: 6em;
+    }
+
+    .role {
+        margin-left: 8em;
+    }
+    .job-date
+    {
+        margin-left: 25px;
+        margin-bottom: 40px;
+    }
+    .timeline-item ul {
+        margin-left: 11em;
+    }
+
+     
+}
+
 
 /*-----------------------colours------------------------*/
 
