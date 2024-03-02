@@ -44,19 +44,19 @@ body {
 }
 
 /*--First content--*/
-.main-contact   {
+.main-content   {
     margin-top: 100px;
     max-height: 620px;
     font-family: "Fira";
     letter-spacing: 0.04rem;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
  
-.main-contact h2, h4, h5 {
+.main-content h2, h3, h4, h5 {
     color: rgba(153,204,0,1);
 }
 
-.main-contact p {
+.main-content p {
     color: rgba(153,204,0,0.6);
 }
 
@@ -68,11 +68,39 @@ body {
     background-color: #003333;
 }
 
-
-/*-----------------------Contact Form------------------------*/
-.contact-heading {
-    display: inline;
+/*-----------------------Work Experience------------------------*/
+.experience-title {
+    padding-bottom: 20px;
 }
+
+.timeline-item {
+    padding: 30px 20px 20px;
+    position: relative;
+    border-left: 3px solid;
+    border-color: rgba(153,204,0,0.6);
+}
+
+.timeline-item h4, ul {
+    color: rgba(153,204,0,0.6);
+}
+
+.timeline-item::before{
+    width: 15px;
+    height: 15px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -7.5px;
+    border-radius: 15px;
+    content: '';
+    background: rgba(153,204,0,1);
+
+}
+
+.main-content-we {
+    margin-bottom: 850px;
+}
+/*-----------------------Contact Form------------------------*/
 
 input, textarea, ::placeholder {
     background-color: #333333;
@@ -83,11 +111,10 @@ input, textarea, ::placeholder {
 textarea {
     max-width: 80%;
 }
+
 label {
     margin:10px;
 }
-
-
 
 .contact-form {
     margin-top: 50px;
@@ -97,8 +124,6 @@ label {
 .left-contact {
     margin-top: 12px;
 }
-
-
 
 .contact-me-button {
     background-color: rgba(153,204,0,0.6);
@@ -124,7 +149,6 @@ label {
  
 
 .footer {
-    
     height: 72px;
     background-color: #003333;
     margin-top: 20px ;
@@ -200,9 +224,8 @@ label {
         margin-inline-start: auto;
     }
     
-    .main-contact {
-        margin-top: 80px;
-        
+    .main-content {
+          margin-top: 80px;
     }
 }
 
