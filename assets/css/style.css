@@ -44,28 +44,30 @@ body {
 }
 
 /*--First content--*/
-.main   {
+.main-contact   {
     margin-top: 100px;
-    height: 620px;
+    max-height: 620px;
     font-family: "Fira";
     letter-spacing: 0.04rem;
+    margin-bottom: 50px;
 }
  
-.main h2, h4, h5 {
+.main-contact h2, h4, h5 {
     color: rgba(153,204,0,1);
 }
 
-.main p {
+.main-contact p {
     color: rgba(153,204,0,0.6);
 }
+
 .content-box {
-    padding: 40px;
+    padding: 100px;
     margin: 0;
     border-radius: 15px;
     border-color: #333333;
     background-color: #003333;
-    height: 550px;
 }
+
 
 /*-----------------------Contact Form------------------------*/
 .contact-heading {
@@ -85,21 +87,18 @@ label {
     margin:10px;
 }
 
-.email-label {
-    
-}
+
 
 .contact-form {
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .left-contact {
     margin-top: 12px;
 }
 
-.right-contact {
 
-}
 
 .contact-me-button {
     background-color: rgba(153,204,0,0.6);
@@ -122,12 +121,25 @@ label {
 
 
 /*-----------------------Footer------------------------*/
+ 
 
-footer {
+.footer {
+    
     height: 72px;
     background-color: #003333;
+    margin-top: 20px ;
+    border-top: #333333;
+    border-top-width: 20px;
 }
 
+.footer-border {
+  position: absolute; 
+  top: 10px;
+  width: 100%;
+  height: 10px; 
+  background-color: #333333; 
+  z-index: 1; 
+}
 
 .socials {
     font-size: 40px;
@@ -137,7 +149,7 @@ footer {
 }
 .socials li {
     display: inline;
-    padding: 50px;
+    padding: 0px 50px;
     
 }
 
@@ -145,6 +157,7 @@ footer {
     color: rgba(153,204,0,0.6);
     text-decoration: none;
     transition-duration: 0.5s;
+    
 }
 
 .icon:hover {
@@ -178,15 +191,18 @@ footer {
 
 @media screen and (max-width: 992px){
     .socials li {
-        padding: 3%;
+        margin-top: 500px;
+        padding: 0px 3%;
+    }
+   
+    .footer {
+        height: 56px;
+        margin-inline-start: auto;
     }
     
-    footer {
-        height: 56px;
-    }
-
-    .main {
-        margin-top: 100px;
+    .main-contact {
+        margin-top: 80px;
+        
     }
 }
 
@@ -201,3 +217,5 @@ footer {
 }
 
 /*-----------------------spacers------------------------*/
+
+

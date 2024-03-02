@@ -46,11 +46,12 @@
 
     <!--Page Content-->
     <section> 
-       <div class="container-fluid main">
+       <div class="container-fluid main-contact"> 
             <div class="row">
-                <div class="col-11  mx-auto content-box ">
+                <div class="col-11  mx-auto content-box">
                     <h2 class="contact-heading">Contact me </h2>
                     <div class="row">
+                      
                     <div class="contact-form col-10 col-md-4 mx-auto">
                         <h4 class=" lowlight left-contact">
                           Got a <span class="highlight">project</span> in mind?
@@ -68,19 +69,19 @@
                           Fill out this form and <span class="highlight">I'll be in touch</span>
                         </h4>   
                         </div>
-                        <div class="contact-form col 10 col-md-5 mx-auto">
+                        <div class="contact-form col-10 col-md-5 mx-auto">
                           <form>
-                          <label class="lowlight right-contact" for="name">Name:</label>
+                          <label class="lowlight" for="name">Name:</label>
                           <br>
-                          <input class="text-center right-contact" type="text" name="name" id="name" placeholder="Enter name here" required>
-                          <br>
-                          
-                          <label class="lowlight email-label right-contact" for="email">Email Address:</label>
-                          <br>
-                          <input class="text-center right-contact" type="email" name="email" id="email" placeholder="Enter email address here" required>
+                          <input class="text-center" type="text" name="name" id="name" placeholder="Enter name here" required>
                           <br>
                           
-                          <label class="lowlight right-contact" for="message">Message:</label>
+                          <label class="lowlight" for="email">Email Address:</label>
+                          <br>
+                          <input class="text-center" type="email" name="email" id="email" placeholder="Enter email address here" required>
+                          <br>
+                          
+                          <label class="lowlight" for="message">Message:</label>
                           <br>
                           <textarea rows="3" cols="50" class="text-center" type="text" name="message" id="message" placeholder="Enter message here"
                           maxlength="500" required></textarea>
@@ -90,6 +91,7 @@
                         </form>
                         </div>
                       </div>
+                      
                 </div>
                 
             </div> 
@@ -98,9 +100,10 @@
        
    </div> 
     </section>
-
-    <footer class="mt-auto">
+    
+    <footer class="mt-auto fixed-bottom">
         <!--Footer-->
+        <div class="footer-border"></div>
         <div class="container-fluid footer">
                 <ul class="socials">
                     <li><a href="https://uk.linkedin.com/" target="_blank" class="icon"><i class="fab fa-linkedin"></i></li>
@@ -109,6 +112,7 @@
                 </ul>
         </div>
     </footer>
+  
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
