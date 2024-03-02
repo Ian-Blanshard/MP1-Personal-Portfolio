@@ -37,7 +37,7 @@
 }
 
 
-/*-----------------------content------------------------*/
+/*-----------------------content general------------------------*/
 
 body {
     background-color: #333333;
@@ -67,6 +67,39 @@ body {
     border-color: #333333;
     background-color: #003333;
 }
+/*-----------------------About Me------------------------*/
+
+.About-me-text{
+    font-size: 150%;
+}
+
+.about-me-links {
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: rgba(153,204,0,0.6);
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.about-me-links:hover {
+    background-color: rgba(153,204,0,1);
+}
+
+.about-me-link-text{
+    color: #003333;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.about-me-button {
+    font-size: 150%;
+    display: inline;
+}
+
+
 
 /*-----------------------Work Experience------------------------*/
 .experience-title {
@@ -102,7 +135,7 @@ body {
 }
 
 .main-content-we {
-    margin-bottom: 850px;
+    margin-bottom: 950px;
 }
 /*-----------------------Contact Form------------------------*/
 
