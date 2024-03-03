@@ -192,6 +192,7 @@ label {
     border-color: #626a10;
     background-color: #a4ac18;
     margin-top: 20px;
+    margin-bottom: 50px;
     padding: 25px; 
 }
 
@@ -203,8 +204,6 @@ label {
     border-radius: 10px;
 }
 
-
-
 .key-skill {
     background-color: #eee6cd;
     margin: 5px;
@@ -214,7 +213,6 @@ label {
 }
 /*-----------------------Footer------------------------*/
  
-
 .footer {
     height: 72px;
     background-color: #a4ac18;
@@ -257,7 +255,7 @@ label {
 
 /*-----------------------Effects------------------------------*/
 
-.content-box {
+.content-box, .project-box {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
