@@ -1,71 +1,71 @@
 /*-----------------------Imports------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Fira:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 /*-----------------------Navbar------------------------*/
 
 .navbar {
-    background-color: #003333;
+    background-color: #a4ac18;
 }
 
 /*--Navbar title--*/
 .navbar-brand {
-    color: rgba(153,204,0,1);
-    font-family: "Fira";
+    color: #000000;
+    font-family: "Lilita One";
     font-size: 150%;
     letter-spacing: 0.04rem;
 }
 .navbar-brand:hover {
-    color: rgba(153,204,0,1);
+    color: #eee6cd;
     
 }
 
 /*--Navbar non current pages--*/
 .nav-link {
-    color: rgba(153,204,0,0.6) ;
-    font-family: "Fira";
+    color: #000000 ;
+    font-family: "Lilita One";
     font-size: 120%;
     letter-spacing: 0.04rem;
 }
 
 .nav-link:hover {
-    color: rgba(153,204,0,1);
+    color: #eee6cd;
 }
 
 /*--Navbar page current--*/
 .active {
-    color: rgba(153,204,0,1) !important ;
+    color: #eee6cd !important ;
 }
 
 
 /*-----------------------content general------------------------*/
 
 body {
-    background-color: #333333;
+    background-color: #626a10;
 }
 
 /*--First content--*/
 .main-content   {
     margin-top: 100px;
     max-height: 620px;
-    font-family: "Fira";
+    font-family: "Lilita One";
     letter-spacing: 0.04rem;
     margin-bottom: 150px;
 }
  
 .main-content h2, h3, h4, h5 {
-    color: rgba(153,204,0,1);
+    color: #000000;
 }
 
 .main-content p {
-    color: rgba(153,204,0,0.6);
+    color: #000000  ;
 }
 
 .content-box {
     padding: 100px;
     margin: 0;
     border-radius: 15px;
-    border-color: #333333;
-    background-color: #003333;
+    border-color: #626a10;
+    background-color: #a4ac18;
 }
 /*-----------------------About Me------------------------*/
 
@@ -76,17 +76,17 @@ body {
 .about-me-links {
     margin-bottom: 20px;
     padding: 0px;
-    background-color: rgba(153,204,0,0.6);
+    background-color: #000000  ;
     border-radius: 5px;
     transition-duration: 0.5s;
 }
 
 .about-me-links:hover {
-    background-color: rgba(153,204,0,1);
+    background-color: #eee6cd;
 }
 
 .about-me-link-text{
-    color: #003333;
+    color: #a4ac18;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
@@ -107,18 +107,22 @@ body {
 }
 
 .job-date {
-    color: rgba(153,204,0,1) !important;
+    color: #000000 !important;
+}
+
+.role {
+    color: #eee6cd !important;
 }
 
 .timeline-item {
     padding: 30px 20px 20px;
     position: relative;
     border-left: 3px solid;
-    border-color: rgba(153,204,0,0.6);
+    border-color: #000000  ;
 }
 
 .timeline-item h4, ul {
-    color: rgba(153,204,0,0.6);
+    color: #000000  ;
 }
 
 .timeline-item::before{
@@ -130,7 +134,7 @@ body {
     left: -7.5px;
     border-radius: 15px;
     content: '';
-    background: rgba(153,204,0,1);
+    background: #eee6cd;
 
 }
 
@@ -140,9 +144,9 @@ body {
 /*-----------------------Contact Form------------------------*/
 
 input, textarea, ::placeholder {
-    background-color: #333333;
+    background-color: #626a10;
     border: none;
-    color: rgba(153,204,0,0.6);
+    color: #000000  ;
 }
 
 textarea {
@@ -163,8 +167,8 @@ label {
 }
 
 .contact-me-button {
-    background-color: rgba(153,204,0,0.6);
-    color: #333333;
+    background-color: #000000  ;
+    color: #626a10;
     width: 45%;
     text-decoration: none;
     border: none;
@@ -176,16 +180,16 @@ label {
 }
 
 .contact-me-button:hover {
-    background-color: rgba(153,204,0,1);
+    background-color: #eee6cd;
 }
 
 
-/*-----------------------projects------------------------*/
+/*-----------------------portfolio------------------------*/
 
 .project-box {
     border-radius: 15px;
-    border-color: #333333;
-    background-color: #003333;
+    border-color: #626a10;
+    background-color: #a4ac18;
     margin-top: 20px;
     padding: 25px; 
 }
@@ -201,7 +205,7 @@ label {
 
 
 .key-skill {
-    background-color: rgba(153,204,0,1);
+    background-color: #eee6cd;
     margin: 5px;
     border-radius: 5px;
     padding: 5px;
@@ -212,9 +216,9 @@ label {
 
 .footer {
     height: 72px;
-    background-color: #003333;
+    background-color: #a4ac18;
     margin-top: 20px ;
-    border-top: #333333;
+    border-top: #626a10;
     border-top-width: 20px;
 }
 
@@ -223,7 +227,7 @@ label {
   top: 10px;
   width: 100%;
   height: 10px; 
-  background-color: #333333; 
+  background-color: #626a10; 
   z-index: 1; 
 }
 
@@ -240,14 +244,14 @@ label {
 }
 
 .icon {
-    color: rgba(153,204,0,0.6);
+    color: #000000  ;
     text-decoration: none;
     transition-duration: 0.5s;
     
 }
 
 .icon:hover {
-    color: rgba(153,204,0,1);
+    color: #eee6cd;
 }
 
 /*-----------------------Effects------------------------------*/
@@ -316,11 +320,11 @@ label {
 /*-----------------------colours------------------------*/
 
 .highlight {
-    color: rgba(153,204,0,1);
+    color: #eee6cd;
 }
 
 .lowlight { 
-    color:rgba(153,204,0,0.6);
+    color:#000000  ;
 }
 
 /*-----------------------spacers------------------------*/

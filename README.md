@@ -82,6 +82,8 @@ https://www.youtube.com/watch?v=R3UGK1RhY6I
 
 https://blog.hubspot.com/website/typing-animation-css
 
+https://pokemonpalette.com/
+
 ======
 ## Testing
 
@@ -95,6 +97,8 @@ https://blog.hubspot.com/website/typing-animation-css
  fix portfolio page bug where at certain screen width the images overspill the container
 
  add the fade in animation to the containers on porfolio page
+
+ add links to projects on portfolio page
 
 ======
 ## Deployment
