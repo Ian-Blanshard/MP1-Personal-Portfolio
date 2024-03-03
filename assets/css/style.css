@@ -180,8 +180,33 @@ label {
 }
 
 
+/*-----------------------projects------------------------*/
+
+.project-box {
+    border-radius: 15px;
+    border-color: #333333;
+    background-color: #003333;
+    margin-top: 20px;
+    padding: 25px; 
+}
+
+.portfolio-image {
+    max-width: auto;
+    max-height: 200px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
 
 
+
+.key-skill {
+    background-color: rgba(153,204,0,1);
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: fit-content;
+}
 /*-----------------------Footer------------------------*/
  
 
@@ -246,6 +271,7 @@ label {
     }
     
 }
+
 
 /*-----------------------Media queries------------------------*/
 

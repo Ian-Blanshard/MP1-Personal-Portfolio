@@ -78,11 +78,23 @@ https://stackoverflow.com/questions/42523147/place-part-of-form-group-in-differe
 
 https://www.w3schools.com/css/css3_buttons.asp
 
+https://www.youtube.com/watch?v=R3UGK1RhY6I
+
+https://blog.hubspot.com/website/typing-animation-css
+
 ======
 ## Testing
 
+
+
 ### Bugs
  fix color of burger item on navbar to fit custom colors
+
+ fix about me link buttons to have whole button clickable not just text
+
+ fix portfolio page bug where at certain screen width the images overspill the container
+
+ add the fade in animation to the containers on porfolio page
 
 ======
 ## Deployment
