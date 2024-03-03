@@ -146,7 +146,7 @@ body {
 input, textarea, ::placeholder {
     background-color: #626a10;
     border: none;
-    color: #000000  ;
+    color: #eee6cd;
 }
 
 textarea {
@@ -168,7 +168,7 @@ label {
 
 .contact-me-button {
     background-color: #000000  ;
-    color: #626a10;
+    color: #eee6cd;
     width: 45%;
     text-decoration: none;
     border: none;
@@ -181,6 +181,7 @@ label {
 
 .contact-me-button:hover {
     background-color: #eee6cd;
+    color: #000000
 }
 
 
