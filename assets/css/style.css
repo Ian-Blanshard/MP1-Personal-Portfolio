@@ -195,7 +195,6 @@ label {
 }
 
 .portfolio-image {
-  max-width: auto;
   max-height: 200px;
   margin: 20px auto;
   display: block;

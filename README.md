@@ -5,44 +5,47 @@ Live version of site hosted on GitPages [here](#link)
 ---
 ## Contents
 
-1 [UX](#link)
-  * Project Goals
-  * Developer Goals
-  * User Goals
-  * User Stories
+1 [UX](#UX)
 
-2 [Features](#link)
+  * [Project Goals](#project-goals)
+  * [Developer Goals](#developer-goals)
+  * [User Goals](#user-goals)
+  * [User Stories](#user-stories)
 
-3 [Technologies Used](#link)
+2 [Features](#features)
 
-4 [Credits](#link)
+3 [Technologies Used](#technologies-used)
 
-5 [Testing](#link)
+4 [Credits](#credits)
 
-6 [Deployment](#link)
+5 [Testing](#testing)
 
+  * [Bugs](#bugs)
 
-## UX
-
-### Project Goals
-
-### Developer Goals
-
-### User goals
-
-### User stories
+6 [Deployment](#deployment)
 
 
-======
-## Features
+## UX <a name="UX"></a>
+
+### Project Goals <a name="project-goals"></a>
+
+### Developer Goals <a name="developer-goals"></a>
+
+### User goals <a name="user-goals"></a>
+
+### User stories <a name="user-stories"></a>
+
+
+
+## Features <a name="features"></a>
 
 Navigation bar created using bootstrap, customised using my own CSS to change text-alignment and colors
 increased navbar height when viewed on larger devices.
 
 Footer created using fontawesome icons. CSS used for size/color customisation and hover effects added using hover pseudoclass.
 
-======
-## Technologies used
+
+## Technologies used <a name="technologies-used"></a>
 
 This Project uses the following languages:
 
@@ -52,7 +55,7 @@ This Project uses the following languages:
 [Bootstrap CSS](https://getbootstrap.com/) framework is utalized to structure the website, allowing me to easily create a responsive website
 and create a quick and easy to use navigation bar.
 
-Git and GitHub
+[Git](https://git-scm.com/) and [GitHub](https://github.com/) for version control and as a repository.
 
 [FontAwesome](https://fontawesome.com/) was used for the logos of Linkedin, GitHub and Facebook. These logos formed part of the footer 
 and were used as links to the sites.
@@ -60,10 +63,7 @@ and were used as links to the sites.
 [Google Fonts](https://fonts.google.com/) was used to browse, select and as a source of the font I used on this site.
 
 
-
-
-======
-## Credits
+## Credits <a name="credits"></a>
 
 https://developer.mozilla.org/en-US/docs/Web/CSS
 
@@ -85,8 +85,8 @@ https://blog.hubspot.com/website/typing-animation-css
 
 https://pokemonpalette.com/
 
-======
-## Testing
+
+## Testing <a name="testing"></a>
 
 I used the [W3C Markup validation service](https://validator.w3.org/) to check the validity of my code.
 This highlighted a number of errors and warnings.
@@ -98,7 +98,7 @@ The trailing slash at the end of link to the font awesome stylesheet was removed
 I had also used spacing in the names of two of my HTML files and these were replaced with underscores and the 
 links updated across the navigation bar.
 
-![Screenshot of errors](/assets/images/code_validation_errors_1.jpg)
+![Screenshot of errors](/assets/images/code_validation_errors_2.jpg)
 
 These errors occured as i had missed the closing tag for the anchor elements in the footer, these were added in.
 
@@ -107,22 +107,36 @@ following that my code passed the validations and no more errors or warnings wer
 
 ![Screenshot of no errors message](/assets/images/code_validation_corrected.jpg)
 
+My CSS passed validation with no errors found.
 
-### Bugs
+![Screenshot of no errors message for CSS](/assets/images/css_validation_no_errors.jpg.jpg)
+
+
+### Bugs <a name="bugs"></a>
+
  fix color of burger item on navbar to fit custom colors
 
  fix about me link buttons to have whole button clickable not just text
 
- fix portfolio page bug where at certain screen width the images overspill the container
 
  add the fade in animation to the containers on porfolio page
 
  add links to projects on portfolio page
 
-======
-## Deployment
+
+## Deployment <a name="deployment"></a>
 
 This project was developed using Microsoft Visual Studio Code, commited to Git and 
 pushed to GitHub using the terminal with in VScode.
+
+I had initially begun using [codeanywhere](https://codeanywhere.com/) which is a cloud
+integrated development environment, which runs from a web browser. But after some issues
+with long wait times to create the virtual environment and in some instances being unable 
+to create one, I moved to using Microsoft Visual Studio Code which I had some experience 
+with. This allowed me to work more efficiently and able to work quickly when I had 
+limited time.
+
+the final Live version of site is hosted on GitPages [here](#link), instructions on how
+to create a site on GitHub pages can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 
