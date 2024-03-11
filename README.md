@@ -12,9 +12,13 @@ Live version of site hosted on GitPages [here](#link)
   * User Stories
 
 2 [Features](#link)
+
 3 [Technologies Used](#link)
+
 4 [Credits](#link)
+
 5 [Testing](#link)
+
 6 [Deployment](#link)
 
 
@@ -22,7 +26,7 @@ Live version of site hosted on GitPages [here](#link)
 
 
 
-===
+
 ## UX
 
 ### Project Goals
@@ -86,6 +90,10 @@ https://pokemonpalette.com/
 
 ======
 ## Testing
+
+I used the [W3C Markup validation service](https://validator.w3.org/) to check the validity of my code.
+This highlighted a number of errors and warnings.
+![Screenshot of errors](/assets/images/code_validation_errors.jpg)
 
 
 
