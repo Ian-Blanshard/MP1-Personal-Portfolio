@@ -22,15 +22,9 @@ Live version of site hosted on GitPages [here](#link)
 6 [Deployment](#link)
 
 
-
-
-
-
-
 ## UX
 
 ### Project Goals
-
 
 ### Developer Goals
 
@@ -55,14 +49,17 @@ This Project uses the following languages:
 * HTML
 * CSS
 
-Bootstrap CSS framework is utalized to structure the website and create a quick and easy to use
-navigation bar
+[Bootstrap CSS](https://getbootstrap.com/) framework is utalized to structure the website, allowing me to easily create a responsive website
+and create a quick and easy to use navigation bar.
 
 Git and GitHub
 
-FontAwesome
+[FontAwesome](https://fontawesome.com/) was used for the logos of Linkedin, GitHub and Facebook. These logos formed part of the footer 
+and were used as links to the sites.
 
-Google Fonts
+[Google Fonts](https://fonts.google.com/) was used to browse, select and as a source of the font I used on this site.
+
+
 
 
 ======
@@ -93,8 +90,22 @@ https://pokemonpalette.com/
 
 I used the [W3C Markup validation service](https://validator.w3.org/) to check the validity of my code.
 This highlighted a number of errors and warnings.
+
 ![Screenshot of errors](/assets/images/code_validation_errors.jpg)
 
+The trailing slash at the end of link to the font awesome stylesheet was removed.
+
+I had also used spacing in the names of two of my HTML files and these were replaced with underscores and the 
+links updated across the navigation bar.
+
+![Screenshot of errors](/assets/images/code_validation_errors_1.jpg)
+
+These errors occured as i had missed the closing tag for the anchor elements in the footer, these were added in.
+
+As these elements navigation and footer were present in all pages, the corrections were made for all files and 
+following that my code passed the validations and no more errors or warnings were given.
+
+![Screenshot of no errors message](/assets/images/code_validation_corrected.jpg)
 
 
 ### Bugs

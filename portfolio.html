@@ -1,130 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
-        crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Ian Blanshard | Software Engineer</title>
-</head>
+  </head>
 
-<body class="d-flex flex-column min-vh-100">
+  <body class="d-flex flex-column min-vh-100">
     <!--Navbar-->
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg py-lg-3" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Ian Blanshard | Software Engineer</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav ">
-                  <li class="nav-item">
-                    <a class="nav-link"  href="index.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="work experience.html">Work Experience</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact me.html">Contact me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="assets/files/Ian_Blanshard_CV_2024.pdf">Download CV</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav
+        class="navbar fixed-top navbar-expand-lg py-lg-3"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            >Ian Blanshard | Software Engineer</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="work_experience.html"
+                  >Work Experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact_me.html">Contact me</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="assets/files/Ian_Blanshard_CV_2024.pdf"
+                  >Download CV</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--Page Content-->
-    <section> 
-       <div class="container-fluid main-content">
-            <div class="row justify-content-between">
-                <div class="col-xlg-3 col-md-5 col-sm-10 mx-auto project-box">
-                  <div class="row">
-                    <div class="col-12">
-                      <h2 class="project-title">Side Shooter</h2>
-                      <p>A side scrolling shooter game, with difficulty levels, multiple
-                        lives and a saving high score.
-                      </p>
-                    </div>
-                    <div class="row">
-                      <div class="col-12"><img class="portfolio-image" src="assets/images/side_scroll_img1.jpg"></div>
-                      <div class="col-12 text-center">
-                      <span class="key-skill">Python</span>
-                      <span class="key-skill">Pygame</span>
-                      <span class="key-skill">OOP</span>
-                      <span class="key-skill">JSON</span>
-                      </div>
-                      <div class="col-12"><img class="portfolio-image" src="assets/images/side_scroll_img2.jpg"></div>
-                  </div>
-                  </div>
+    <section>
+      <div class="container-fluid main-content">
+        <div class="row justify-content-between">
+          <div class="col-xlg-3 col-md-5 col-sm-10 mx-auto project-box">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="project-title">Side Shooter</h2>
+                <p>
+                  A side scrolling shooter game, with difficulty levels,
+                  multiple lives and a saving high score.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <img
+                    class="portfolio-image"
+                    src="assets/images/side_scroll_img1.jpg"
+                    alt="image of a start menu for a computer game"
+                  />
                 </div>
-                <div class="col-xlg-3 col-md-5 col-sm-10 mx-auto project-box">
-                  <div class="row">
-                    <div class="col-12">
-                      <h2 class="project-title">Portfolio Website</h2>
-                      <p>An earlier build of a personal website to promote my skills 
-                        in coding, and help to find job roles.
-                      </p>
-                    </div>
-                    <div class="row">
-                      <div class="col-12"><img class="portfolio-image" src="assets/images/personal_website_img2.jpg"></div>
-                      <div class="col-12 text-center">
-                      <span class="key-skill">HTML5</span>
-                      <span class="key-skill">CSS</span>
-                      <span class="key-skill">Bootstrap</span>
-                      </div>
-                      <div class="col-12"><img class="portfolio-image" src="assets/images/personal_website_img1.jpg"></div>
-                  </div>
-                  </div>
+                <div class="col-12 text-center">
+                  <span class="key-skill">Python</span>
+                  <span class="key-skill">Pygame</span>
+                  <span class="key-skill">OOP</span>
+                  <span class="key-skill">JSON</span>
                 </div>
-                <div class="col-xlg-3 col-md-5 col-sm-10  mx-auto project-box">
-                  <div class="row">
-                    <div class="col-12">
-                      <h2 class="project-title">GitHub most starred program</h2>
-                      <p>A program which uses plotly to create a visualisation of 
-                        the most starred projects on GitHub for your specified language.
-                      </p>
-                    </div>
-                    <div class="row">
-                      <div class="col-12"><img class="portfolio-image" src="assets/images/api_script_img1.jpg"></div>
-                      <div class="col-12 text-center">
-                      <span class="key-skill">Python</span>
-                      <span class="key-skill">Plotly</span>
-                      <span class="key-skill">API Requests</span>
-                      </div>
-                      <div class="col-12"><img class="portfolio-image" src="assets/images/api_script_img2.jpg"></div>
-                  </div>
-                  </div>
+                <div class="col-12">
+                  <img
+                    class="portfolio-image"
+                    src="assets/images/side_scroll_img2.jpg"
+                    alt="image of a side scroll computer game being played"
+                  />
                 </div>
-            </div> 
-       </div>  
-   </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-xlg-3 col-md-5 col-sm-10 mx-auto project-box">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="project-title">Portfolio Website</h2>
+                <p>
+                  An earlier build of a personal website to promote my skills in
+                  coding, and help to find job roles.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <img
+                    class="portfolio-image"
+                    src="assets/images/personal_website_img2.jpg"
+                    alt="image of a webpage showing a timeline of work experience"
+                  />
+                </div>
+                <div class="col-12 text-center">
+                  <span class="key-skill">HTML5</span>
+                  <span class="key-skill">CSS</span>
+                  <span class="key-skill">Bootstrap</span>
+                </div>
+                <div class="col-12">
+                  <img
+                    class="portfolio-image"
+                    src="assets/images/personal_website_img1.jpg"
+                    alt="image of a webpage showing a contact me form"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xlg-3 col-md-5 col-sm-10 mx-auto project-box">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="project-title">GitHub most starred program</h2>
+                <p>
+                  A program which uses plotly to create a visualisation of the
+                  most starred projects on GitHub for your specified language.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <img
+                    class="portfolio-image"
+                    src="assets/images/api_script_img1.jpg"
+                    alt="image of a bar chart titled most starred projects on github"
+                  />
+                </div>
+                <div class="col-12 text-center">
+                  <span class="key-skill">Python</span>
+                  <span class="key-skill">Plotly</span>
+                  <span class="key-skill">API Requests</span>
+                </div>
+                <div class="col-12">
+                  <img
+                    class="portfolio-image"
+                    src="assets/images/api_script_img2.jpg"
+                    alt="image of code written on vscode"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer class="mt-auto fixed-bottom">
       <!--Footer-->
       <div class="footer-border"></div>
       <div class="container-fluid footer">
-              <ul class="socials">
-                  <li><a href="https://uk.linkedin.com/" target="_blank" class="icon"><i class="fab fa-linkedin"></i></li>
-                  <li><a href="https://github.com/Ian-Blanshard" target="_blank" class="icon"><i class="fab fa-github"></i></li>
-                  <li><a href="https://www.facebook.com/" target="_blank" class="icon"><i class="fab fa-facebook"></i></li>
-              </ul>
+        <ul class="socials">
+          <li>
+            <a href="https://uk.linkedin.com/" target="_blank" class="icon"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Ian-Blanshard"
+              target="_blank"
+              class="icon"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank" class="icon"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+        </ul>
       </div>
     </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
