@@ -109,7 +109,7 @@ following that my code passed the validations and no more errors or warnings wer
 
 My CSS passed validation with no errors found.
 
-![Screenshot of no errors message for CSS](/assets/images/css_validation_no_errors.jpg.jpg)
+![Screenshot of no errors message for CSS](/assets/images/css_validation_no_errors.jpg)
 
 
 ### Bugs <a name="bugs"></a>
@@ -136,7 +136,7 @@ to create one, I moved to using Microsoft Visual Studio Code which I had some ex
 with. This allowed me to work more efficiently and able to work quickly when I had 
 limited time.
 
-the final Live version of site is hosted on GitPages [here](#link), instructions on how
+The final Live version of site is hosted on GitPages [here](#link), instructions on how
 to create a site on GitHub pages can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 
