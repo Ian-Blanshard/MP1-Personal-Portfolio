@@ -5,12 +5,11 @@ Live version of site hosted on GitPages [here](#link)
 ---
 ## Contents
 
-1 [UX](#UX)
+1 [User Experience (UX)](#UX)
 
   * [Project Goals](#project-goals)
-  * [Developer Goals](#developer-goals)
-  * [User Goals](#user-goals)
   * [User Stories](#user-stories)
+  * [Wireframes](#wireframes)
 
 2 [Features](#features)
 
@@ -21,34 +20,51 @@ Live version of site hosted on GitPages [here](#link)
 5 [Testing](#testing)
 
   * [Bugs](#bugs)
+  * [Code Validation](#code-validation)
 
 6 [Deployment](#deployment)
 
-
-## UX <a name="UX"></a>
+## User Experience (UX) <a name="UX"></a>
+### Project Goals <a name="project-goals"></a>
+### User stories <a name="user-stories"></a>
+### Wireframes <a name="wireframes"></a>
+I used [figma](www.figma.com) to create wireframes for my project to get some of the ideas for layouts designed prior to starting to code them.
 
 ![Screenshot of wireframes](/assets/images/figma_basic_page_layout.jpg)
 
+![Screenshot of wireframes](/assets/images/figma_contact_page_layout.jpg)
+
+![Screenshot of wireframes](/assets/images/figma_porfolio_page_layout.jpg)
+
 ![Screenshot of color scheme](/assets/images/color_scheme.jpg)
-
-### Project Goals <a name="project-goals"></a>
-
-### Developer Goals <a name="developer-goals"></a>
-
-### User goals <a name="user-goals"></a>
-
-### User stories <a name="user-stories"></a>
-
-
 
 ## Features <a name="features"></a>
 
 Navigation bar created using bootstrap, customised using my own CSS to change font, text-alignment, colors and increased navbar height when viewed on larger devices.
 
-Responsive design created using bootstrap [grid system](https://getbootstrap.com/docs/4.0/layout/grid/) to 
+It also contains a title which has the name and title, this is positioned in the top left of
+the screen and is present on every page, this is key information, as the purpose of the site
+is to communicate who they are and what they do.
+
+The second part of the navigation bar has the name of the other pages so the visitor can immediately see what information is available to them and also where they are on the site is 
+highlighted. This allows for easy navigation to key information rapidly.
+
+Responsive design created using bootstrap [grid system](https://getbootstrap.com/docs/4.0/layout/grid/) to allow responsiveness across all screen sizes.
+
+Each page contains a h2 heading which explains the purpose of the page to the user, it is the first piece of content on every page.
+
+Key information is highlighed using a different color throughout the site, this consistency is visualy pleasing and is used for the following:
+
+ * Key pieces of text on the about me page
+ * Skills demonstrated by each portfolio piece
+ * Job roles on the work experience page
+ * Reasons to contact and where to enter your details on the contact page
+
+This allows visitors to the page to quickly engage with and gain the key information needed to convince them to hire/ work with me.
+
+The contents of each page are consistently styled throughout the site.
 
 Footer created using fontawesome icons, aria labels added to provide context of where the links go as icons do not provide this information. CSS used for size/color customisation, responsive spacing of icons and hover effects added using hover pseudoclass.
-
 
 ## Technologies used <a name="technologies-used"></a>
 
@@ -66,7 +82,6 @@ and create a quick and easy to use navigation bar.
 and were used as links to the sites.
 
 [Google Fonts](https://fonts.google.com/) was used to browse, select and as a source of the font I used on this site.
-
 
 ## Credits <a name="credits"></a>
 
@@ -93,6 +108,8 @@ https://pokemonpalette.com/
 
 ## Testing <a name="testing"></a>
 
+### Code Validation <a name="code-validation"></a>
+
 I used the [W3C Markup validation service](https://validator.w3.org/) to check the validity of my code.
 This highlighted a number of errors and warnings.
 
@@ -116,7 +133,6 @@ My CSS passed validation with no errors found.
 
 ![Screenshot of no errors message for CSS](/assets/images/css_validation_no_errors.jpg)
 
-
 ### Bugs <a name="bugs"></a>
 
  Fixed about me link buttons to have whole button clickable not just text - The 
@@ -127,9 +143,6 @@ My CSS passed validation with no errors found.
  targetting the .context-box class and not the project-box class, as the containers 
  on the porfolio page had some different CSS rules to the main ones, this class was
  added to the fadeInAnimation so that all containers had the same effect.
-
- add links to projects on portfolio page
-
 
 ## Deployment <a name="deployment"></a>
 

@@ -185,6 +185,15 @@ label {
 
 /*-----------------------portfolio------------------------*/
 
+.project-header-box {
+  border-radius: 15px;
+  border-color: #626a10;
+  background-color: #a4ac18;
+  margin: 0px;
+  padding: 10px;
+  text-align: center; 
+}
+
 .project-box {
   border-radius: 15px;
   border-color: #626a10;
@@ -250,7 +259,8 @@ label {
 /*-----------------------Effects------------------------------*/
 
 .content-box,
-.project-box {
+.project-box,
+.project-header-box {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
