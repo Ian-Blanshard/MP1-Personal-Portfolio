@@ -15,7 +15,7 @@
   letter-spacing: 0.04rem;
 }
 .navbar-brand:hover {
-  color: #eee6cd;
+  color: ffffff;
 }
 
 /*--Navbar non current pages--*/
@@ -27,12 +27,12 @@
 }
 
 .nav-link:hover {
-  color: #eee6cd;
+  color: ffffff;
 }
 
 /*--Navbar page current--*/
 .active {
-  color: #eee6cd !important ;
+  color: ffffff !important ;
 }
 
 /*-----------------------content general------------------------*/
@@ -84,7 +84,7 @@ h5 {
 }
 
 .about-me-links:hover {
-  background-color: #eee6cd;
+  background-color: ffffff;
 }
 
 .about-me-link-text {
@@ -109,7 +109,7 @@ h5 {
 }
 
 .role {
-  color: #eee6cd !important;
+  color: ffffff !important;
 }
 
 .timeline-item {
@@ -133,7 +133,7 @@ ul {
   left: -7.5px;
   border-radius: 15px;
   content: "";
-  background: #eee6cd;
+  background: ffffff;
 }
 
 .main-content-we {
@@ -146,7 +146,7 @@ textarea,
 ::placeholder {
   background-color: #626a10;
   border: none;
-  color: #eee6cd;
+  color: ffffff;
 }
 
 textarea {
@@ -168,7 +168,7 @@ label {
 
 .contact-me-button {
   background-color: #000000;
-  color: #eee6cd;
+  color: ffffff;
   width: 45%;
   text-decoration: none;
   border: none;
@@ -179,7 +179,7 @@ label {
 }
 
 .contact-me-button:hover {
-  background-color: #eee6cd;
+  background-color: ffffff;
   color: #000000;
 }
 
@@ -211,7 +211,7 @@ label {
 }
 
 .key-skill {
-  background-color: #eee6cd;
+  background-color: ffffff;
   margin: 5px;
   border-radius: 5px;
   padding: 5px;
@@ -253,12 +253,12 @@ label {
 }
 
 .icon:hover {
-  color: #eee6cd;
+  color: #ffffff;
 }
 
 /*-----------------------Effects------------------------------*/
 
-/*.content-box,
+.content-box,
 .project-box,
 .project-header-box {
   animation: fadeInAnimation ease 3s;
@@ -323,7 +323,7 @@ label {
 /*-----------------------colours------------------------*/
 
 .highlight {
-  color: #eee6cd;
+  color: #ffffff;
 }
 
 .lowlight {
