@@ -42,6 +42,8 @@ Live version of site hosted on GitPages [here](#link)
 Navigation bar created using bootstrap, customised using my own CSS to change text-alignment and colors
 increased navbar height when viewed on larger devices.
 
+Responsive design created using bootstrap [grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
+
 Footer created using fontawesome icons. CSS used for size/color customisation and hover effects added using hover pseudoclass.
 
 
@@ -114,12 +116,14 @@ My CSS passed validation with no errors found.
 
 ### Bugs <a name="bugs"></a>
 
- fix color of burger item on navbar to fit custom colors
-
- fix about me link buttons to have whole button clickable not just text
-
-
- add the fade in animation to the containers on porfolio page
+ Fixed about me link buttons to have whole button clickable not just text - The 
+ anchor element were only around the text of the buttons at the bottom of the index 
+ page, I moved them around the div itself so that not only the text was clickable.
+ 
+ The fade in animation for the containers which have the page content in was only 
+ targetting the .context-box class and not the project-box class, as the containers 
+ on the porfolio page had some different CSS rules to the main ones, this class was
+ added to the fadeInAnimation so that all containers had the same effect.
 
  add links to projects on portfolio page
 
