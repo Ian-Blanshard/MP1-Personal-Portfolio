@@ -10,7 +10,7 @@
 /*--Navbar title--*/
 .navbar-brand {
   color: #000000;
-  font-family: "Lilita One";
+  font-family: "Lilita One", sans-serif;
   font-size: 150%;
   letter-spacing: 0.04rem;
 }
@@ -21,7 +21,7 @@
 /*--Navbar non current pages--*/
 .nav-link {
   color: #000000;
-  font-family: "Lilita One";
+  font-family: "Lilita One", sans-serif;
   font-size: 120%;
   letter-spacing: 0.04rem;
 }
@@ -45,7 +45,7 @@ body {
 .main-content {
   margin-top: 100px;
   max-height: 620px;
-  font-family: "Lilita One";
+  font-family: "Lilita One", sans-serif;
   letter-spacing: 0.04rem;
   margin-bottom: 150px;
 }
