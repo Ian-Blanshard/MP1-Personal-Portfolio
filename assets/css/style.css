@@ -258,7 +258,7 @@ label {
 
 /*-----------------------Effects------------------------------*/
 
-.content-box,
+/*.content-box,
 .project-box,
 .project-header-box {
   animation: fadeInAnimation ease 3s;
