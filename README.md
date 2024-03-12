@@ -27,6 +27,10 @@ Live version of site hosted on GitPages [here](#link)
 
 ## UX <a name="UX"></a>
 
+![Screenshot of wireframes](/assets/images/figma_basic_page_layout.jpg)
+
+![Screenshot of color scheme](/assets/images/color_scheme.jpg)
+
 ### Project Goals <a name="project-goals"></a>
 
 ### Developer Goals <a name="developer-goals"></a>
@@ -39,12 +43,11 @@ Live version of site hosted on GitPages [here](#link)
 
 ## Features <a name="features"></a>
 
-Navigation bar created using bootstrap, customised using my own CSS to change text-alignment and colors
-increased navbar height when viewed on larger devices.
+Navigation bar created using bootstrap, customised using my own CSS to change font, text-alignment, colors and increased navbar height when viewed on larger devices.
 
-Responsive design created using bootstrap [grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
+Responsive design created using bootstrap [grid system](https://getbootstrap.com/docs/4.0/layout/grid/) to 
 
-Footer created using fontawesome icons. CSS used for size/color customisation and hover effects added using hover pseudoclass.
+Footer created using fontawesome icons, aria labels added to provide context of where the links go as icons do not provide this information. CSS used for size/color customisation, responsive spacing of icons and hover effects added using hover pseudoclass.
 
 
 ## Technologies used <a name="technologies-used"></a>
