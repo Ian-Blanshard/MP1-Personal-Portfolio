@@ -15,7 +15,7 @@
   letter-spacing: 0.04rem;
 }
 .navbar-brand:hover {
-  color: ffffff;
+  color: #ffffff;
 }
 
 /*--Navbar non current pages--*/
@@ -27,12 +27,12 @@
 }
 
 .nav-link:hover {
-  color: ffffff;
+  color: #ffffff;
 }
 
 /*--Navbar page current--*/
 .active {
-  color: ffffff !important ;
+  color: #ffffff !important ;
 }
 
 /*-----------------------content general------------------------*/
@@ -84,7 +84,7 @@ h5 {
 }
 
 .about-me-links:hover {
-  background-color: ffffff;
+  background-color: #ffffff;
 }
 
 .about-me-link-text {
@@ -109,7 +109,7 @@ h5 {
 }
 
 .role {
-  color: ffffff !important;
+  color: #ffffff !important;
 }
 
 .timeline-item {
@@ -133,7 +133,7 @@ ul {
   left: -7.5px;
   border-radius: 15px;
   content: "";
-  background: ffffff;
+  background: #ffffff;
 }
 
 .main-content-we {
@@ -146,7 +146,7 @@ textarea,
 ::placeholder {
   background-color: #626a10;
   border: none;
-  color: ffffff;
+  color: #ffffff;
 }
 
 textarea {
@@ -179,7 +179,7 @@ label {
 }
 
 .contact-me-button:hover {
-  background-color: ffffff;
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -211,7 +211,7 @@ label {
 }
 
 .key-skill {
-  background-color: ffffff;
+  background-color: #ffffff;
   margin: 5px;
   border-radius: 5px;
   padding: 5px;
