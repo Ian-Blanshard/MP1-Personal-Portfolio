@@ -177,7 +177,8 @@ My CSS passed validation with no errors found.
 
 ### Lighthouse testing <a name="lighthouse-testing"></a>
 
-During testing it became clear that the white text on a green background made for poor accessibility as can be seen below by a reduced lighthouse score for this using chromes web developer tools.
+During testing it became clear that the white text on a green background made for poor accessibility as can be 
+seen below by a reduced lighthouse score for this using chromes web developer tools.
 ![Screenshot of poor lighthouse score](/assets/images/poor_accessibility_score.jpg)
 
 Althoug I liked how the design looked, pictured below, this led me to explore other colour schemes.
@@ -186,10 +187,11 @@ Althoug I liked how the design looked, pictured below, this led me to explore ot
 
 ![Screenshot of site using original design](/assets/images/original_color_scheme_1.jpg)
 
+I visited a site called [venngage](https://venngage.com/tools/accessible-color-palette-generator#colorGenerator), 
+which helped me better understand this score and colour schemes which are better for accessibility, then changed 
+my colour scheme and achieved an improved score, seen below.
+
 ![Screenshot of improved lighthouse score](/assets/images/improved_accessibility_score.jpg)
-
-https://venngage.com/tools/accessible-color-palette-generator#colorGenerator
-
 
 ### Bugs <a name="bugs"></a>
 
@@ -201,6 +203,9 @@ https://venngage.com/tools/accessible-color-palette-generator#colorGenerator
  targetting the .context-box class and not the project-box class, as the containers 
  on the porfolio page had some different CSS rules to the main ones, this class was
  added to the fadeInAnimation so that all containers had the same effect.
+
+ Fixed a bug in which images on the portfolio page spilled out of their containers
+ at certain screen widths.
 
 ## Deployment <a name="deployment"></a>
 

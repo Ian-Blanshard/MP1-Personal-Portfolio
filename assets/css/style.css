@@ -185,7 +185,7 @@ label {
 .project-header-box {
   border-radius: 15px;
   background-color: #003753;
-  margin: 0px;
+  margin: 0;
   padding: 10px;
   text-align: center; 
 }
@@ -198,8 +198,10 @@ label {
   padding: 25px;
 }
 
+
 .portfolio-image {
   max-height: 200px;
+  max-width: 100%;
   margin: 20px auto;
   display: block;
   border-radius: 10px;
@@ -333,6 +335,13 @@ label {
     width: 300px;
   }
 }
+
+@media screen and (max-width: 474px) {
+    .project-header-box {
+        margin-top: 50px;
+    }
+}
+
 
 /*-----------------------colours------------------------*/
 
