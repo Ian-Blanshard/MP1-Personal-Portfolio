@@ -2,6 +2,7 @@
 
 Live version of site hosted on GitPages [here](#link)
 
+![Screenshot of page on different devices](/assets/images/responsive_design_image.jpg)
 ---
 ## Contents
 
@@ -181,7 +182,7 @@ During testing it became clear that the white text on a green background made fo
 seen below by a reduced lighthouse score for this using chromes web developer tools.
 ![Screenshot of poor lighthouse score](/assets/images/poor_accessibility_score.jpg)
 
-Althoug I liked how the design looked, pictured below, this led me to explore other colour schemes.
+Although I liked how the design looked, pictured below, this led me to explore other colour schemes.
 
 ![Screenshot of site using original design](/assets/images/original_color_scheme.jpg)
 
