@@ -22,6 +22,7 @@ Live version of site hosted on GitPages [here](#link)
 
   * [Bugs](#bugs)
   * [Code Validation](#code-validation)
+  * [Lighthouse testing](#lighthouse-testing)
 
 6 [Deployment](#deployment)
 
@@ -81,8 +82,7 @@ The portfolio page has a header which is in a seperate container to ensure it's 
 ![Screenshot of color scheme](/assets/images/color_scheme.jpg)
 For the colour scheme I used two different shades of green, the darker one #626A10 for the main background of the site and a lighter shade #A4AC18 for the containers/header/footer. This draws the eye nicely to the content.
 
-For the main bulk of text/information black #000000 is used this has a nice contrast and ensures information is easily readable, then a shade of white #EEE6CD was used to highlight the 
-most important information on the site, allowing the user to rapidly focus on the information 
+For the main bulk of text/information black #000000 is used this has a nice contrast and ensures information is easily readable, then a shade of white #EEE6CD was used to highlight the most important information on the site, allowing the user to rapidly focus on the information 
 which is of most importance to them.
 
 The font used is Lilita one, with sans-serif as a fall back incase the primary font is not available due to either compatibility or failure of the import.
@@ -174,6 +174,22 @@ following that my code passed the validations and no more errors or warnings wer
 My CSS passed validation with no errors found.
 
 ![Screenshot of no errors message for CSS](/assets/images/css_validation_no_errors.jpg)
+
+### Lighthouse testing <a name="lighthouse-testing"></a>
+
+During testing it became clear that the white text on a green background made for poor accessibility as can be seen below by a reduced lighthouse score for this using chromes web developer tools.
+![Screenshot of poor lighthouse score](/assets/images/poor_accessibility_score.jpg)
+
+Althoug I liked how the design looked, pictured below, this led me to explore other colour schemes.
+
+![Screenshot of site using original design](/assets/images/original_color_scheme.jpg)
+
+![Screenshot of site using original design](/assets/images/original_color_scheme_1.jpg)
+
+![Screenshot of improved lighthouse score](/assets/images/improved_accessibility_score.jpg)
+
+https://venngage.com/tools/accessible-color-palette-generator#colorGenerator
+
 
 ### Bugs <a name="bugs"></a>
 

@@ -4,41 +4,41 @@
 /*-----------------------Navbar------------------------*/
 
 .navbar {
-  background-color: #a4ac18;
+  background-color: #003753;
 }
 
 /*--Navbar title--*/
 .navbar-brand {
-  color: #000000;
+  color: #2bb2f6;
   font-family: "Lilita One", sans-serif;
   font-size: 150%;
   letter-spacing: 0.04rem;
 }
 .navbar-brand:hover {
-  color: #ffffff;
+  color: #fafafa;
 }
 
 /*--Navbar non current pages--*/
 .nav-link {
-  color: #000000;
+  color: #2bb2f6;
   font-family: "Lilita One", sans-serif;
   font-size: 120%;
   letter-spacing: 0.04rem;
 }
 
 .nav-link:hover {
-  color: #ffffff;
+  color: #fafafa;
 }
 
 /*--Navbar page current--*/
 .active {
-  color: #ffffff !important ;
+  color: #fafafa !important ;
 }
 
 /*-----------------------content general------------------------*/
 
 body {
-  background-color: #626a10;
+  background-color: #2bb2f6;
 }
 
 /*--First content--*/
@@ -50,23 +50,20 @@ body {
   margin-bottom: 150px;
 }
 
-.main-content h2,
-h3,
-h4,
-h5 {
-  color: #000000;
+
+.main-content h2, h3 {
+    color: #fafafa;
 }
 
 .main-content p {
-  color: #000000;
+  color: #2bb2f6;
 }
 
 .content-box {
   padding: 100px;
   margin: 0;
   border-radius: 15px;
-  border-color: #626a10;
-  background-color: #a4ac18;
+  background-color: #003753;
 }
 /*-----------------------About Me------------------------*/
 
@@ -76,7 +73,7 @@ h5 {
 
 .about-me-links {
   margin-bottom: 20px;
-  background-color: #000000;
+  background-color: #2bb2f6;
   border-radius: 5px;
   transition-duration: 0.5s;
   margin-top: 25px;
@@ -84,11 +81,11 @@ h5 {
 }
 
 .about-me-links:hover {
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 
 .about-me-link-text {
-  color: #a4ac18;
+  color: #003753;
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
@@ -105,23 +102,23 @@ h5 {
 }
 
 .job-date {
-  color: #000000 !important;
+  color: #2bb2f6 !important;
 }
 
 .role {
-  color: #ffffff !important;
+  color: #fafafa !important;
 }
 
 .timeline-item {
   padding: 30px 20px 20px;
   position: relative;
   border-left: 3px solid;
-  border-color: #000000;
+  border-color: #2bb2f6;
 }
 
 .timeline-item h4,
 ul {
-  color: #000000;
+  color: #2bb2f6;
 }
 
 .timeline-item::before {
@@ -133,7 +130,7 @@ ul {
   left: -7.5px;
   border-radius: 15px;
   content: "";
-  background: #ffffff;
+  background: #2bb2f6;
 }
 
 .main-content-we {
@@ -144,9 +141,9 @@ ul {
 input,
 textarea,
 ::placeholder {
-  background-color: #626a10;
+  background-color: #2bb2f6;
   border: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 textarea {
@@ -167,8 +164,8 @@ label {
 }
 
 .contact-me-button {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #2bb2f6;
+  color: #000000;
   width: 45%;
   text-decoration: none;
   border: none;
@@ -179,16 +176,15 @@ label {
 }
 
 .contact-me-button:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #fafafa;
+  color: #003753;
 }
 
 /*-----------------------portfolio------------------------*/
 
 .project-header-box {
   border-radius: 15px;
-  border-color: #626a10;
-  background-color: #a4ac18;
+  background-color: #003753;
   margin: 0px;
   padding: 10px;
   text-align: center; 
@@ -196,8 +192,7 @@ label {
 
 .project-box {
   border-radius: 15px;
-  border-color: #626a10;
-  background-color: #a4ac18;
+  background-color: #003753;
   margin-top: 20px;
   margin-bottom: 50px;
   padding: 25px;
@@ -211,19 +206,38 @@ label {
 }
 
 .key-skill {
-  background-color: #ffffff;
+  background-color: #fafafa;
   margin: 5px;
   border-radius: 5px;
   padding: 5px;
   max-width: fit-content;
 }
+
+.portfolio-links {
+    margin-bottom: 20px;
+    background-color: #2bb2f6;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    margin-top: 25px;
+    width: fit-content;
+  }
+
+  .portfolio-links:hover {
+    background-color: #fafafa;
+  }
+  
+  .portfolio-links-text {
+    color: #003753;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+  }
 /*-----------------------Footer------------------------*/
 
 .footer {
   height: 72px;
-  background-color: #a4ac18;
+  background-color: #003753;
   margin-top: 20px;
-  border-top: #626a10;
   border-top-width: 20px;
 }
 
@@ -232,7 +246,7 @@ label {
   top: 10px;
   width: 100%;
   height: 10px;
-  background-color: #626a10;
+  background-color: #2bb2f6;
   z-index: 1;
 }
 
@@ -247,13 +261,13 @@ label {
 }
 
 .icon {
-  color: #000000;
+  color: #2bb2f6;
   text-decoration: none;
   transition-duration: 0.5s;
 }
 
 .icon:hover {
-  color: #ffffff;
+  color: #fafafa;
 }
 
 /*-----------------------Effects------------------------------*/
@@ -323,9 +337,9 @@ label {
 /*-----------------------colours------------------------*/
 
 .highlight {
-  color: #ffffff;
+  color: #fafafa;
 }
 
 .lowlight {
-  color: #000000;
+  color: #2bb2f6;
 }
