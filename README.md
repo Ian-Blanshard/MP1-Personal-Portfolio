@@ -24,6 +24,8 @@ Live version of site hosted on GitPages [here](#link)
   * [Bugs](#bugs)
   * [Code Validation](#code-validation)
   * [Lighthouse testing](#lighthouse-testing)
+  * [Testing Stories](#testing-stories)
+  * [Device and Browser Testing](#testing-devices-browsers)
 
 6 [Deployment](#deployment)
 
@@ -149,7 +151,13 @@ I used the work history timeline idea from the [codeinstitute](https://learn.cod
 
 I used the code from this site by [samanthaming](https://www.samanthaming.com/tidbits/57-styling-css-placeholder/) to learn how to style parts of my form.
 
-## Testing <a name="testing"></a>
+## Testing user stories <a name="testing-stories"></a>
+
+## Testing across different devices and browsers  <a name="testing-devices-browsers"></a>
+
+I used the 
+On mobile screen size I moodified the margins on the content containers to make the design more visually pleasing and fixed an issue with the bottom of the content not displaying correctly above the footer.
+
 
 ### Code Validation <a name="code-validation"></a>
 
@@ -193,6 +201,8 @@ which helped me better understand this score and colour schemes which are better
 my colour scheme and achieved an improved score, seen below.
 
 ![Screenshot of improved lighthouse score](/assets/images/improved_accessibility_score.jpg)
+
+### Testing  <a name="lighthouse-testing"></a>
 
 ### Bugs <a name="bugs"></a>
 
