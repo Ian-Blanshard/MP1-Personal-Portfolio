@@ -155,8 +155,13 @@ I used the code from this site by [samanthaming](https://www.samanthaming.com/ti
 
 ## Testing across different devices and browsers  <a name="testing-devices-browsers"></a>
 
-I used the 
+I used the developer tools in chrome browser to test the responsiveness of the site on screen sizes from a variety of mobile devices, this highlighted a couple of issues.
+
 On mobile screen size I moodified the margins on the content containers to make the design more visually pleasing and fixed an issue with the bottom of the content not displaying correctly above the footer.
+
+I added a media query to change the font size of the navbar brand to ensure the icon for the collapsable element of the navbar didn't overspill onto a new line on certain screen sizes.
+
+https://www.geeksforgeeks.org/how-to-replace-text-with-css/
 
 
 ### Code Validation <a name="code-validation"></a>
