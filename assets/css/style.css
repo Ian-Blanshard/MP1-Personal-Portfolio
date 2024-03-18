@@ -315,15 +315,13 @@ label {
     padding: 10%;
     margin-bottom: 50px;
   }
-
 }
 
 @media screen and (max-width: 475px) {
   .navbar-brand {
-    font-size: 1rem;
+    font-size: 0.93rem;
   }
 }
-
 
 @media screen and (min-width: 992px) {
   .employer {
