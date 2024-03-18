@@ -1,6 +1,6 @@
 # Ian Blanshard Portfolio website
 
-Live version of site hosted on GitPages [here](#link)
+Live version of site hosted on GitPages [here](https://ian-blanshard.github.io/MP1-Personal-Portfolio/)
 
 ![Screenshot of page on different devices](/assets/images/responsive_design_image.jpg)
 ---
@@ -92,18 +92,15 @@ The font used is Lilita one, with sans-serif as a fall back incase the primary f
 
 ## Features <a name="features"></a>
 
-Navigation bar created using bootstrap, customised using my own CSS to change font, text-alignment, colors and increased navbar height when viewed on larger devices.
+The navigation bar was created using bootstrap, customised using my own CSS to change font, text-alignment, colors, hover over effects and responsive navbar height.
 
-It also contains a title which has the name and title, this is positioned in the top left of
-the screen and is present on every page, this is key information, as the purpose of the site
-is to communicate who they are and what they do.
+Navbar also contains a title which has the name and title, this is positioned in the top left of the screen and is present on every page, this is key information, as the purpose of the site is to communicate who they are and what they do, it also functions as a link to return to the index/about me page.
 
-The second part of the navigation bar has the name of the other pages so the visitor can immediately see what information is available to them and also where they are on the site is 
-highlighted. This allows for easy navigation to key information rapidly.
+The second part of the navigation bar has the name of the other pages so the visitor can immediately see what information is available to them and also where they are on the site is highlighted. This allows for easy navigation to key information rapidly.
 
 Responsive design created using bootstrap [grid system](https://getbootstrap.com/docs/4.0/layout/grid/) to allow responsiveness across all screen sizes.
 
-Each page contains a h2 heading which explains the purpose of the page to the user, it is the first piece of content on every page.
+Each page contains a heading which explains the purpose of the page to the user, it is the first piece of content on every page.
 
 Key information is highlighed using a different color throughout the site, this consistency is visualy pleasing and is used for the following:
 
@@ -116,7 +113,7 @@ This allows visitors to the page to quickly engage with and gain the key informa
 
 The contents of each page are consistently styled throughout the site.
 
-Footer created using fontawesome icons, aria labels added to provide context of where the links go as icons do not provide this information. CSS used for size/color customisation, responsive spacing of icons and hover effects added using hover pseudoclass.
+The footer was created using fontawesome icons, aria labels added to provide context of where the links go as icons do not provide this information. CSS used for size/color customisation, responsive spacing of icons and hover effects added using hover pseudoclass.
 
 ## Technologies used <a name="technologies-used"></a>
 
@@ -136,9 +133,9 @@ and were used as links to the sites.
 
 ## Credits <a name="credits"></a>
 
-The [CSS documentation at mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS) was used as a reference point during the creation of the website, when creating hovering effects.
+The [CSS documentation at mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS) was used as a reference point during the creation of the website and when creating hovering effects.
 
-The [bootstrap docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/) were used frequently especially when initially trying to get a good understanding of the grid structuring, the [following solution on stackoverflow](https://stackoverflow.com/questions/42523147/place-part-of-form-group-in-different-column-using-bootstrap-grid) in particular was helpful in solving my own problem I was having with my form.
+The [bootstrap docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/) were used frequently, especially when initially trying to get a good understanding of the grid structuring, the [following solution on stackoverflow](https://stackoverflow.com/questions/42523147/place-part-of-form-group-in-different-column-using-bootstrap-grid) in particular was helpful in solving my own problem I was having with my form.
 
 When I wanted to create a fade in effect on my containers I used [this tutorial on geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/
 ) to learn how to do so, I modified the code to achieve the effect I wanted.
@@ -151,9 +148,9 @@ I used the work history timeline idea from the [codeinstitute](https://learn.cod
 
 I used the code from this site by [samanthaming](https://www.samanthaming.com/tidbits/57-styling-css-placeholder/) to learn how to style parts of my form.
 
-## Testing user stories <a name="testing-stories"></a>
+## Testing  <a name="testing"></a>
 
-## Testing across different devices and browsers  <a name="testing-devices-browsers"></a>
+### Testing across different devices and browsers  <a name="testing-devices-browsers"></a>
 
 I used the developer tools in chrome browser to test the responsiveness of the site on screen sizes from a variety of mobile devices, this highlighted a couple of issues.
 
@@ -161,7 +158,7 @@ On mobile screen size I moodified the margins on the content containers to make 
 
 I added a media query to change the font size of the navbar brand to ensure the icon for the collapsable element of the navbar didn't overspill onto a new line on certain screen sizes.
 
-https://www.geeksforgeeks.org/how-to-replace-text-with-css/
+I tested the site on Microsoft Edge, Google chrome and Mozilla firefox browers. 
 
 
 ### Code Validation <a name="code-validation"></a>
@@ -203,20 +200,36 @@ Although I liked how the design looked, pictured below, this led me to explore o
 
 I visited a site called [venngage](https://venngage.com/tools/accessible-color-palette-generator#colorGenerator), 
 which helped me better understand this score and colour schemes which are better for accessibility, then changed 
-my colour scheme and achieved an improved score, seen below.
+my colour scheme and achieved an improved score, seen below, this is  fop the final colour scheme in the published site.
 
 ![Screenshot of improved lighthouse score](/assets/images/improved_accessibility_score.jpg)
 
-### Testing  <a name="lighthouse-testing"></a>
+### Testing user stories  <a name="testing-stories"></a>
 
-### Bugs <a name="bugs"></a>
+1 A recruiter looking for suitable employee to fit a role they have:
+ * I could immediately see links to download a CV and Work Experience
+ both links work correctly, on the work experience page I could see well organised information regarding skills used in previous jobs.
+ * The link to contact me page was constantly visible on the navigation and took me to a form which functioned correctly in which I could write a message to make contact.
+
+2 A Employer who is coming to this site after I have applied to their job listing:
+ * On the first page I could see information about the applicant, key bit of information were highlighted effectively.
+  * I could see a link on the naviation bar to a portfolio page, the link worked correctly and took me to a page which had summaries of previous work I had completed, Key languages and skills used were highlighted, links were present to GitHub to see the projects in more detail.
+
+3 Somebody who would like to collaborate on a project with me:
+ * I could quickly navigate to a portfolio page containing examples of work which allowed me to decide if the skills there were a good match for my project.
+  * There was an easily visible link to a contact me page present on the portfolio page, the link worked correctly and took me to a form which I could send a message from.
+  
+
+### Bugs <a name="bugs"></a>n
+
+During testing of the site I came across a few bugs, this is a list of them and how they were resolved.
 
  Fixed about me link buttons to have whole button clickable not just text - The 
  anchor element were only around the text of the buttons at the bottom of the index 
- page, I moved them around the div itself so that not only the text was clickable.
+ page, I moved them around the div so that not only the text was clickable.
  
  The fade in animation for the containers which have the page content in was only 
- targetting the .context-box class and not the project-box class, as the containers 
+ targeting the .context-box class and not the project-box class, as the containers 
  on the porfolio page had some different CSS rules to the main ones, this class was
  added to the fadeInAnimation so that all containers had the same effect.
 
@@ -235,7 +248,7 @@ to create one, I moved to using Microsoft Visual Studio Code which I had some ex
 with. This allowed me to work more efficiently and able to work quickly when I had 
 limited time.
 
-The final Live version of site is hosted on GitPages [here](#link), instructions on how
+The final Live version of site is hosted on GitPages [here](https://ian-blanshard.github.io/MP1-Personal-Portfolio/), instructions on how
 to create a site on GitHub pages can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 
