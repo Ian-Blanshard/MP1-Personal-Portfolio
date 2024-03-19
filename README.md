@@ -78,7 +78,7 @@ Highlighting of key words is used to draw attention the most important messages 
 
 ![Screenshot of wireframes](/assets/images/figma_porfolio_page_layout.jpg)
 
-The portfolio page has a header which is in a seperate container to ensure it's effectively communicated what the page contains. Below this each piece in the portfolio has its own container these are two wide on desktop and tablet displays with one centered below on another line id there are an odd number of pieces currently in the portfolio, this ensures the design can be added to later easily. On mobile the portfolio pieces stack one on top of another.
+The portfolio page has a header which is in a separate container to ensure it's effectively communicated what the page contains. Below this each piece in the portfolio has its own container these are two wide on desktop and tablet displays with one centered below on another line id there are an odd number of pieces currently in the portfolio, this ensures the design can be added to later easily. On mobile the portfolio pieces stack one on top of another.
 
 ### Colour Scheme and Font <a name="styles"></a>
 
@@ -92,7 +92,7 @@ The font used is Lilita one, with sans-serif as a fall back incase the primary f
 
 ## Features <a name="features"></a>
 
-The navigation bar was created using bootstrap, customised using my own CSS to change font, text-alignment, colors, hover over effects and responsive navbar height.
+The navigation bar was created using bootstrap, customized using my own CSS to change font, text-alignment, colors, hover over effects and responsive navbar height.
 
 Navbar also contains a title which has the name and title, this is positioned in the top left of the screen and is present on every page, this is key information, as the purpose of the site is to communicate who they are and what they do, it also functions as a link to return to the index/about me page.
 
@@ -102,7 +102,7 @@ Responsive design created using bootstrap [grid system](https://getbootstrap.com
 
 Each page contains a heading which explains the purpose of the page to the user, it is the first piece of content on every page.
 
-Key information is highlighed using a different color throughout the site, this consistency is visualy pleasing and is used for the following:
+Key information is highlighted using a different color throughout the site, this consistency is visually pleasing and is used for the following:
 
  * Key pieces of text on the about me page
  * Skills demonstrated by each portfolio piece
@@ -113,7 +113,7 @@ This allows visitors to the page to quickly engage with and gain the key informa
 
 The contents of each page are consistently styled throughout the site.
 
-The footer was created using fontawesome icons, aria labels added to provide context of where the links go as icons do not provide this information. CSS used for size/color customisation, responsive spacing of icons and hover effects added using hover pseudoclass.
+The footer was created using fontawesome icons, aria labels added to provide context of where the links go as icons do not provide this information. CSS used for size/color customization, responsive spacing of icons and hover effects added using hover pseudoclass.
 
 ## Technologies used <a name="technologies-used"></a>
 
@@ -122,7 +122,7 @@ This Project uses the following languages:
 * HTML
 * CSS
 
-[Bootstrap CSS](https://getbootstrap.com/) framework is utalized to structure the website, allowing me to easily create a responsive website and create a quick and easy to use navigation bar.
+[Bootstrap CSS](https://getbootstrap.com/) framework is utilized to structure the website, allowing me to easily create a responsive website and create a quick and easy to use navigation bar.
 
 [Git](https://git-scm.com/) and [GitHub](https://github.com/) for version control and as a repository.
 
@@ -154,11 +154,11 @@ I used the code from this site by [samanthaming](https://www.samanthaming.com/ti
 
 I used the developer tools in chrome browser to test the responsiveness of the site on screen sizes from a variety of mobile devices, this highlighted a couple of issues.
 
-On mobile screen size I moodified the margins on the content containers to make the design more visually pleasing and fixed an issue with the bottom of the content not displaying correctly above the footer.
+On mobile screen size I modified the margins on the content containers to make the design more visually pleasing and fixed an issue with the bottom of the content not displaying correctly above the footer.
 
-I added a media query to change the font size of the navbar brand to ensure the icon for the collapsable element of the navbar didn't overspill onto a new line on certain screen sizes.
+I added a media query to change the font size of the navbar brand to ensure the icon for the collapsible element of the navbar didn't overspill onto a new line on certain screen sizes.
 
-I tested the site on Microsoft Edge, Google chrome and Mozilla firefox browers. 
+I tested the site on Microsoft Edge, Google chrome and Mozilla firefox browsers. 
 
 
 ### Code Validation <a name="code-validation"></a>
@@ -175,7 +175,7 @@ links updated across the navigation bar.
 
 ![Screenshot of errors](/assets/images/code_validation_errors_2.jpg)
 
-These errors occured as i had missed the closing tag for the anchor elements in the footer, these were added in.
+These errors occurred as i had missed the closing tag for the anchor elements in the footer, these were added in.
 
 As these elements navigation and footer were present in all pages, the corrections were made for all files and 
 following that my code passed the validations and no more errors or warnings were given.
@@ -213,12 +213,12 @@ my colour scheme and achieved an improved score, seen below, this is  fop the fi
 
 2 A Employer who is coming to this site after I have applied to their job listing:
  * On the first page I could see information about the applicant, key bit of information were highlighted effectively.
-  * I could see a link on the naviation bar to a portfolio page, the link worked correctly and took me to a page which had summaries of previous work I had completed, Key languages and skills used were highlighted, links were present to GitHub to see the projects in more detail.
+  * I could see a link on the navigation bar to a portfolio page, the link worked correctly and took me to a page which had summaries of previous work I had completed, Key languages and skills used were highlighted, links were present to GitHub to see the projects in more detail.
 
 3 Somebody who would like to collaborate on a project with me:
  * I could quickly navigate to a portfolio page containing examples of work which allowed me to decide if the skills there were a good match for my project.
   * There was an easily visible link to a contact me page present on the portfolio page, the link worked correctly and took me to a form which I could send a message from.
-  
+    
 
 ### Bugs <a name="bugs"></a>n
 
@@ -230,7 +230,7 @@ During testing of the site I came across a few bugs, this is a list of them and 
  
  The fade in animation for the containers which have the page content in was only 
  targeting the .context-box class and not the project-box class, as the containers 
- on the porfolio page had some different CSS rules to the main ones, this class was
+ on the portfolio page had some different CSS rules to the main ones, this class was
  added to the fadeInAnimation so that all containers had the same effect.
 
  Fixed a bug in which images on the portfolio page spilled out of their containers
@@ -238,7 +238,7 @@ During testing of the site I came across a few bugs, this is a list of them and 
 
 ## Deployment <a name="deployment"></a>
 
-This project was developed using Microsoft Visual Studio Code, commited to Git and 
+This project was developed using Microsoft Visual Studio Code, committed to Git and 
 pushed to GitHub using the terminal with in VScode.
 
 I had initially begun using [codeanywhere](https://codeanywhere.com/) which is a cloud
