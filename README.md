@@ -220,7 +220,7 @@ my colour scheme and achieved an improved score, seen below, this is  fop the fi
   * There was an easily visible link to a contact me page present on the portfolio page, the link worked correctly and took me to a form which I could send a message from.
     
 
-### Bugs <a name="bugs"></a>n
+### Bugs <a name="bugs"></a>
 
 During testing of the site I came across a few bugs, this is a list of them and how they were resolved.
 
