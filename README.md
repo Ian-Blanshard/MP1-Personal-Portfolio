@@ -148,6 +148,8 @@ I used the work history timeline idea from the [codeinstitute](https://learn.cod
 
 I used the code from this site by [samanthaming](https://www.samanthaming.com/tidbits/57-styling-css-placeholder/) to learn how to style parts of my form.
 
+I used [this tutorial/blog](https://blog.hubspot.com/website/typing-animation-css) to learn how to create a typing animation and edited the code to change timings and remove the cursor once the typing animation had run.
+
 ## Testing  <a name="testing"></a>
 
 ### Testing across different devices and browsers  <a name="testing-devices-browsers"></a>
