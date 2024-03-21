@@ -80,7 +80,7 @@
                 <a
                   class="nav-link"
                   target="_blank"
-                  href="assets/files/Ian_Blanshard_CV_2024.pdf"
+                  href="assets/files/ian_blanshard_cv_2024.pdf"
                   >Download CV</a
                 >
               </li>
@@ -120,7 +120,7 @@
               </div>
               <!--contact form-->
               <div class="contact-form col-10 col-md-5 mx-auto">
-                <form action="#" method="POST">
+                <form action="https://formdump.codeinstitute.net" method="POST">
                   <label class="highlight" for="name">Name:</label>
                   <br />
                   <!--name box-->
@@ -130,6 +130,7 @@
                     name="name"
                     id="name"
                     placeholder="Enter name"
+                    aria-label="name"
                     required
                   />
                   <br />
@@ -142,6 +143,7 @@
                     name="email"
                     id="email"
                     placeholder="Enter email"
+                    aria-label="email"
                     required
                   />
                   <br />
@@ -156,12 +158,17 @@
                     id="message"
                     placeholder="Enter message"
                     maxlength="500"
+                    aria-label="message"
                     required
                   ></textarea>
                   <br />
                   <br />
                   <!--contact form button-->
-                  <button type="submit" class="contact-me-button">
+                  <button
+                    type="submit"
+                    class="contact-me-button"
+                    aria-label="send message"
+                  >
                     Send message
                   </button>
                 </form>

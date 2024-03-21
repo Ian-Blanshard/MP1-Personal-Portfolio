@@ -1,5 +1,9 @@
 # Ian Blanshard Portfolio website
 
+My name is Ian Blanshard and I am developing my skills as a software engineer, this site is a place for me to practive my HTML and CSS skills. Whilst offering an oppurtunity to demonstrate skills I have which make me employable.
+
+The website is designed to attract work opportunities through communicating information about me, skills, work experience and providing a way for people visiting  to initiate contact with me.
+
 Live version of site hosted on GitPages [here](https://ian-blanshard.github.io/MP1-Personal-Portfolio/)
 
 ![Screenshot of page on different devices](/assets/images/responsive_design_image.jpg)
@@ -15,6 +19,13 @@ Live version of site hosted on GitPages [here](https://ian-blanshard.github.io/M
 
 2 [Features](#features)
 
+  * [Navigation Bar](#navigation-bar)
+  * [Timeline](#timeline)
+  * [Contact Form](#contact-form)
+  * [Portfolio Cards](#portfolio-cards)
+  * [Footer](#footer)
+  * [Overall Site Features](#overall-features)
+
 3 [Technologies Used](#technologies-used)
 
 4 [Credits](#credits)
@@ -23,11 +34,20 @@ Live version of site hosted on GitPages [here](https://ian-blanshard.github.io/M
 
   * [Bugs](#bugs)
   * [Code Validation](#code-validation)
-  * [Lighthouse testing](#lighthouse-testing)
+  * [Lighthouse Testing](#lighthouse-testing)
+  * [Manual Testing](#manual-testing)
   * [Testing Stories](#testing-stories)
   * [Device and Browser Testing](#testing-devices-browsers)
 
 6 [Deployment](#deployment)
+
+7 [Finished Site](#finished-site)
+
+ * [About Me Page](#about-me-page)
+ * [Portfolio Page](#portfolio-page)
+ * [Work Experience Page](#work-experience-page)
+ * [Contact Me Page](#contact-me-page)
+ 
 
 ## User Experience (UX) <a name="UX"></a>
 ### Project Goals <a name="project-goals"></a>
@@ -83,24 +103,57 @@ The portfolio page has a header which is in a separate container to ensure it's 
 ### Colour Scheme and Font <a name="styles"></a>
 
 ![Screenshot of color scheme](/assets/images/color_scheme.jpg)
-For the colour scheme I used two different shades of green, the darker one #626A10 for the main background of the site and a lighter shade #A4AC18 for the containers/header/footer. This draws the eye nicely to the content.
 
-For the main bulk of text/information black #000000 is used this has a nice contrast and ensures information is easily readable, then a shade of white #EEE6CD was used to highlight the most important information on the site, allowing the user to rapidly focus on the information 
-which is of most importance to them.
+For the colour scheme I used two different shades of blue, the lighter one #2bb2f6 for the main background of the site and a darker shade #003753 for the containers/header/footer. This draws the eye nicely to the content.
+
+For the main bulk of text/information the lighter blue #2bb2f6 is used this has a nice contrast with the containers and ensures information is easily readable, then white #fafafa was used to highlight the most important information on the site, allowing the user to rapidly focus on the information 
+which is of most importance to them. Black #000000 was used in the tiles on the portfolio page and the placeholder text on the form. I had an earlier design using a different colour scheme but during testing it came to my attention that these combinations did not score well for accessibility so was changed, this is discussed in detail in the [testing section](#lighthouse-testing)
 
 The font used is Lilita one, with sans-serif as a fall back incase the primary font is not available due to either compatibility or failure of the import.
 
 ## Features <a name="features"></a>
 
+### Navigation Bar <a name="navigation-bar"></a>
+
 The navigation bar was created using bootstrap, customized using my own CSS to change font, text-alignment, colors, hover over effects and responsive navbar height.
 
-Navbar also contains a title which has the name and title, this is positioned in the top left of the screen and is present on every page, this is key information, as the purpose of the site is to communicate who they are and what they do, it also functions as a link to return to the index/about me page.
+![Screenshot of navigation bar](/assets/images/navigation_bar.jpg)
+
+The navbar contains a title which has the name and title, this is positioned in the top left of the screen and is present on every page, this is key information, as the purpose of the site is to communicate who they are and what they do, it also functions as a link to return to the index/about me page.
 
 The second part of the navigation bar has the name of the other pages so the visitor can immediately see what information is available to them and also where they are on the site is highlighted. This allows for easy navigation to key information rapidly.
 
+### Timeline <a name="timeline"></a>
+
+![Screenshot of timeline feature](/assets/images/timeline.jpg)
+
+The timeline feature communicates the work history in chronological order, it has the key information of employer and job role highlighted and then includes a list of further information about the role.
+
+### Contact Form <a name="contact-form"></a>
+
+![Screenshot of contact form](/assets/images/contact_form.jpg)
+
+The contact form allows visitors to the site to get in contact with me, it has some text describing reasons to use the form to encourage use. It has areas to allow name and email to be entered which ensures they can be responded to and a box for a message to be entered. All of these have placeholder text to make the form more user friendly and also aria labels for accessibility.
+
+### Portfolio Cards <a name="portfolio-cards"></a>
+
+![Screenshot of portfolio card](/assets/images/portfolio_card.jpg)
+
+The portfolio cards are places to display project that demonstrate skills, they contain images of the projects and tiles which highlight the demonstrated skills, a link is also included which opens on a seperate tab, taking them to the GitHub page for the projects to look in more detail.
+
+### Footer <a name="footer"></a>
+
+![Screenshot of footer](/assets/images/footer.jpg)
+
+The footer displays links to social media sites to encourage making contact.
+
+The footer was created using fontawesome icons, aria labels added to provide context of where the links go as icons do not provide this information. CSS used for size/color customization, responsive spacing of icons and hover effects added using hover pseudoclass.
+
+### Overall site features <a name="overall-features">
+
 Responsive design created using bootstrap [grid system](https://getbootstrap.com/docs/4.0/layout/grid/) to allow responsiveness across all screen sizes.
 
-Each page contains a heading which explains the purpose of the page to the user, it is the first piece of content on every page.
+Each page contains a heading which explains the purpose of the page to the user, it is the first piece of content on every page and attention is drawn to this by creating a typing animation that runs on page load.
 
 Key information is highlighted using a different color throughout the site, this consistency is visually pleasing and is used for the following:
 
@@ -113,7 +166,6 @@ This allows visitors to the page to quickly engage with and gain the key informa
 
 The contents of each page are consistently styled throughout the site.
 
-The footer was created using fontawesome icons, aria labels added to provide context of where the links go as icons do not provide this information. CSS used for size/color customization, responsive spacing of icons and hover effects added using hover pseudoclass.
 
 ## Technologies used <a name="technologies-used"></a>
 
@@ -130,6 +182,9 @@ This Project uses the following languages:
 and were used as links to the sites.
 
 [Google Fonts](https://fonts.google.com/) was used to browse, select and as a source of the font I used on this site.
+
+I had initially begun using [codeanywhere](https://codeanywhere.com/) which is a cloud
+integrated development environment, which runs from a web browser. But after some issues with long wait times to create the virtual environment and in some instances being unable to create one, I moved to using Microsoft Visual Studio Code which I had some experience with. This allowed me to work more efficiently and able to work quickly when I had limited time.
 
 ## Credits <a name="credits"></a>
 
@@ -206,6 +261,134 @@ my colour scheme and achieved an improved score, seen below, this is  fop the fi
 
 ![Screenshot of improved lighthouse score](/assets/images/improved_accessibility_score.jpg)
 
+### Manual testing <a name="manual-testing"></a>
+
+#### Tested Navigation bar
+
+ * clicked portfolio link
+ * expected it to take me to portfolio page
+ * took me to portfolio page, page loaded correctly
+
+ <br>
+
+ * clicked work experience link
+ * expected it to take me to work experience page
+ * took me to work experience page, page loaded correctly
+
+ <br>
+
+ * clicked contact me link
+ * expected it to take me to contact me page
+ * took me to contact me page, page loaded correctly
+
+ <br>
+
+ * clicked about me link
+ * expected it to take me to about me page
+ * took me to about me page, page loaded correctly
+
+ <br>
+
+ * clicked download cv link
+ * expected it to open new tab containing CV
+ * opened new tab containing CV, page loaded correctly
+
+<br>
+
+#### Tested Footer 
+
+ * clicked LinkedIn logo
+ * expected it to open new tab with LinkedIn
+ * opened new tab to LinkedIn page
+
+<br>
+
+ * clicked GitHub logo
+ * expected it to open new tab with my GitHub
+ * opened new tab to my GitHub page
+
+<br>
+
+ * clicked Facebook logo
+ * expected it to open new tab with Facebook site
+ * opened new tab to Facebook site
+
+<br>
+
+#### Tested About Me page
+
+ * loaded about me page
+ * expected page to display about me text and header animation to run
+ * page loaded correctly, text displayed correctly and animation ran succesfully 
+
+<br>
+
+ * clicked portfolio link button at bottom of page
+ * expected to be taken to portfolio page
+ * portfolio page loaded correctly
+
+<br>
+
+ * clicked CV link button at bottom of page
+ * expected new tab to open displaying CV
+ * new tab opened correctly with CV displayed correctly
+
+<br>
+
+ * clicked message link button at bottom of page
+ * expected to be taken to contact me page containing form
+ * contact me page loaded correctly
+
+<br>
+
+#### Tested Portfolio page
+
+ * loaded portfolio page
+ * expected page to display portfolio cards and header animation to run
+ * page loaded correctly, portfolio cards and animation ran succesfully, could       scroll  down and view all available cards 
+
+<br>
+
+ * clicked Github links on portfolio cards
+ * expected hover over effect to change colour hovering over button
+ * hover over effect worked colour changed
+ * when clicked expected new tab to open to GitHub
+ * new tab opened correctly with GitHub 
+
+<br>
+
+#### Tested Work Experience page
+
+ * loaded work experience page
+ * expected page to display timeline of work experience which was scrollable and header animation to run
+ * page loaded correctly, timeline displayed correctly, was scrollable and animation ran succesfully 
+
+<br>
+
+#### Tested Contact page
+
+ * loaded contact page
+ * expected page to display contact me form and header animation to run
+ * page loaded correctly, form displayed correctly and animation ran succesfully 
+
+<br>
+
+ * attempted to submit form with no details
+ * expected form to not be able to submit and details to show required fields which had no details entered
+ * form did not submit and required fields were highlighted to user
+
+<br>
+
+ * attempted to submit form with incorrectly formatted email address
+ * expected form to not be able to submit and details to show user problem with email format
+ * form did not submit and email address issues were highlighted to user
+
+<br>
+
+ * attmepted to submit form with all field filled correctly
+ * expected form to submit and information collected correctly
+ * form submitted correctly
+
 ### Testing user stories  <a name="testing-stories"></a>
 
 1 A recruiter looking for suitable employee to fit a role they have:
@@ -243,14 +426,38 @@ During testing of the site I came across a few bugs, this is a list of them and 
 This project was developed using Microsoft Visual Studio Code, committed to Git and 
 pushed to GitHub using the terminal with in VScode.
 
-I had initially begun using [codeanywhere](https://codeanywhere.com/) which is a cloud
-integrated development environment, which runs from a web browser. But after some issues
-with long wait times to create the virtual environment and in some instances being unable 
-to create one, I moved to using Microsoft Visual Studio Code which I had some experience 
-with. This allowed me to work more efficiently and able to work quickly when I had 
-limited time.
+The final Live version of site is hosted on GitPages [here](https://ian-blanshard.github.io/MP1-Personal-Portfolio/) 
 
-The final Live version of site is hosted on GitPages [here](https://ian-blanshard.github.io/MP1-Personal-Portfolio/), instructions on how
-to create a site on GitHub pages can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+This is achieved by:
+
+ 1. logging into GitHub
+ 2. navigating to the repository you would like to create a site for
+ 3. at the top of the repository clicking the settings icon
+ 4. on the left hand side of the settings page click the pages section
+ 5. under source click the dropdown and select master branch
+ 6. once the page refreshes there will be a link to your site, click this
+
+
+Detailed instructions on how to create a site on GitHub pages can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+
+## Finished site  <a name="finished-site"></a>
+
+### About me page <a name="about-me-page"></a>
+
+![about me page screenshot](/assets/images/about-me-page.jpg)
+
+### Portfolio page <a name="portfolio-page"></a>
+
+![portfolio page screenshot](/assets/images/portfolio-page.jpg)
+
+### Work experience page <a name="work-experience page"></a>
+
+![work experience page screenshot](/assets/images/work-experience-page.jpg)
+
+
+### Contact me page <a name="contact-me-page"></a>
+
+![contact me page screenshot](/assets/images/contact-me-page.jpg)
 
 
