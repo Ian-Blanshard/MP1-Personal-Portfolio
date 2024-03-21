@@ -1,6 +1,6 @@
 # Ian Blanshard Portfolio website
 
-My name is Ian Blanshard and I am developing my skills as a software engineer, this site is a place for me to practive my HTML and CSS skills. Whilst offering an oppurtunity to demonstrate skills I have which make me employable.
+My name is Ian Blanshard and I am developing my skills as a software engineer, this site is a place for me to practice my HTML and CSS skills. Whilst offering an opportunity to demonstrate skills I have, which make me employable.
 
 The website is designed to attract work opportunities through communicating information about me, skills, work experience and providing a way for people visiting  to initiate contact with me.
 
@@ -215,7 +215,7 @@ On mobile screen size I modified the margins on the content containers to make t
 
 I added a media query to change the font size of the navbar brand to ensure the icon for the collapsible element of the navbar didn't overspill onto a new line on certain screen sizes.
 
-I tested the site on Microsoft Edge, Google chrome and Mozilla firefox browsers. 
+I tested the site on Microsoft Edge, Google chrome and Mozilla Firefox browsers. 
 
 
 ### Code Validation <a name="code-validation"></a>
@@ -319,7 +319,7 @@ my colour scheme and achieved an improved score, seen below, this is  fop the fi
 
  * loaded about me page
  * expected page to display about me text and header animation to run
- * page loaded correctly, text displayed correctly and animation ran succesfully 
+ * page loaded correctly, text displayed correctly and animation ran successfully 
 
 <br>
 
@@ -345,11 +345,11 @@ my colour scheme and achieved an improved score, seen below, this is  fop the fi
 
  * loaded portfolio page
  * expected page to display portfolio cards and header animation to run
- * page loaded correctly, portfolio cards and animation ran succesfully, could       scroll  down and view all available cards 
+ * page loaded correctly, portfolio cards and animation ran successfully, could       scroll  down and view all available cards 
 
 <br>
 
- * clicked Github links on portfolio cards
+ * clicked GitHub links on portfolio cards
  * expected hover over effect to change colour hovering over button
  * hover over effect worked colour changed
  * when clicked expected new tab to open to GitHub
@@ -361,7 +361,7 @@ my colour scheme and achieved an improved score, seen below, this is  fop the fi
 
  * loaded work experience page
  * expected page to display timeline of work experience which was scrollable and header animation to run
- * page loaded correctly, timeline displayed correctly, was scrollable and animation ran succesfully 
+ * page loaded correctly, timeline displayed correctly, was scrollable and animation ran successfully 
 
 <br>
 
@@ -369,7 +369,7 @@ my colour scheme and achieved an improved score, seen below, this is  fop the fi
 
  * loaded contact page
  * expected page to display contact me form and header animation to run
- * page loaded correctly, form displayed correctly and animation ran succesfully 
+ * page loaded correctly, form displayed correctly and animation ran successfully 
 
 <br>
 
@@ -385,7 +385,7 @@ my colour scheme and achieved an improved score, seen below, this is  fop the fi
 
 <br>
 
- * attmepted to submit form with all field filled correctly
+ * attempted to submit form with all field filled correctly
  * expected form to submit and information collected correctly
  * form submitted correctly
 
@@ -393,7 +393,7 @@ my colour scheme and achieved an improved score, seen below, this is  fop the fi
 
 1 A recruiter looking for suitable employee to fit a role they have:
  * I could immediately see links to download a CV and Work Experience
- both links work correctly, on the work experience page I could see well organised information regarding skills used in previous jobs.
+ both links work correctly, on the work experience page I could see well organized information regarding skills used in previous jobs.
  * The link to contact me page was constantly visible on the navigation and took me to a form which functioned correctly in which I could write a message to make contact.
 
 2 A Employer who is coming to this site after I have applied to their job listing:
